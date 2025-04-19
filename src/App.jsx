@@ -43,14 +43,12 @@ export default function App() {
     }
   }
 
-  if(isLoading){
-    return(
-      <Text> Loading... </Text>
-    )
+  if (isLoading) {
+    return <Text> Loading... </Text>;
   }
-  
-  if(error){
-    <Text> {error} </Text>
+
+  if (error) {
+    <Text> {error} </Text>;
   }
 
   function RenderJobs({ jobs }) {
@@ -73,7 +71,7 @@ export default function App() {
   }
 
   return (
-    <View>
+    <View style={{ margin: 10 }}>
       <StatusBar backgroundColor="#f00" barStyle={"light-content"} />
       <FlatList
         data={jobs}
@@ -93,6 +91,9 @@ const styles = StyleSheet.create({
   cart: {
     width: "100%",
     padding: 10,
+    backgroundColor: "#ccc",
+    marginBottom: 10,
+    borderRadius: 10,
   },
   title: {
     fontSize: 25,
