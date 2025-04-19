@@ -1,5 +1,7 @@
 # Welcome to your Expo app 👋
 
+![Alt text](https://drive.google.com/file/d/1Af_4tOne_reiD6m0ajbFFy86fNEorc1X/view?usp=sharing "Screenshoot")
+
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## Get started
